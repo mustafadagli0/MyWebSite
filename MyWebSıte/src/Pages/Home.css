@@ -1,0 +1,132 @@
+/* Arka plan: yumuşak gradient */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #c1ddf8, #f8c1c1);
+    color: #333;
+  }
+  /* Sayfa genel layout */
+  .page {
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+     background: linear-gradient(135deg, #c1ddf8, #f8c1c1);
+  }
+  /* Header */
+  .header {
+    background: linear-gradient(135deg, #c1ddf8, #f8c1c1);
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .ıconSoft{
+    margin-bottom: -20px;
+    margin-left: 2px;
+  }
+  .feedBack{
+    margin-left: 400px;
+  }
+  .nav a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2ea6fb;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  .nav a:hover {
+    color: #007bc8;
+  }
+  /* Bölümler */
+  .section {
+    font-weight: bold;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+      background: linear-gradient(135deg, #c1ddf8, #f8c1c1);
+  }
+  .sectionTwo {
+    font-weight: bold;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: #777;
+    font-size: 0.9rem;
+  }
+  .mail{
+    text-decoration: none;
+    color: #2ea6fb;
+    transition: color 0.5s ease;
+    font-weight: bold;
+  }
+  .mail:hover{
+    color: #007bc8;
+  }
+  .communication{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    height:30px;
+    border: solid grey;
+    border-radius: 20px;
+    max-width: 600px;
+  }
+  .communaction:hover{
+    cursor: pointer;
+    border: 2px solid black;
+  }
+  .ıcon{
+    margin-right: 5px;
+  }
+  .ıconSoft{
+    margin-bottom: 60px;
+    display: inline-block;
+  }
+  @media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+   .communication {
+    min-height: 50px;
+    min-width:300px;
+  }
+  .ıconSoft {
+    margin: 10px;
+    display: inline-block;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  .feedBack {
+    margin-left: 0;
+    text-align: center;
+  }
+}
