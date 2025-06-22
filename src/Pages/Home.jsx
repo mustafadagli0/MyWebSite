@@ -42,7 +42,7 @@ function Home() {
   
 
       <section id="contact" className="section">
-        <h2 style={{color:'#404040'}}>Communication</h2>
+        <h2 style={{color:'#404040'}}>Contact</h2>
         
 
           <div className='communication'>
