@@ -55,7 +55,7 @@ function Home() {
           </div>
           <div className='communication'>
           <BsGithub className='ıcon'/>
-            GitHub:<a className='mail' target='_blank' href="https://github.com/mustafadagli0">https://github.com/mustafadagli0</a>
+            GitHub:<a className='mail' target='_blank' href="https://github.com/mustafadagli0?tab=repositories">https://github.com/mustafadagli0</a>
           </div>
         
       </section>
