@@ -6,6 +6,7 @@ import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { GrReactjs } from "react-icons/gr";
+import { FaPython } from "react-icons/fa";
 
 
 
@@ -18,6 +19,7 @@ function Home() {
       <SiCss3 className='ıconSoft' />
       <SiJavascript className='ıconSoft'/>
       <GrReactjs className='ıconSoft'/>
+      <FaPython className='ıconSoft'/>
       <img style={{width:'40px', display:'inline-block', marginBottom:'-10px',marginLeft:'-75px'}} src="/avataaars.svg"></img>
        <h3 style={{color:'#404040',display:'inline-block'}}>Mustafa Dağlı</h3>
         <nav className="nav">
@@ -29,13 +31,11 @@ function Home() {
       <section id="about" className="section">
         <h2 style={{color:'#404040'}}>About Me</h2>
         <p>
-        Hello, I'm Mustafa Dağlı, a second-year Computer Engineering student in Turkey. Throughout my university life, I’ve been focused on developing myself in the field of software. In my second year, I passed the Erasmus English language exam and had the opportunity to study in Poland, which greatly contributed to both my technical and personal growth.
+          I am a 3rd-year Computer Engineering student dedicated to building impactful software solutions through data-driven approaches. With a strong background of over 2 years in the JavaScript ecosystem (React, HTML5, CSS3), I specialize in creating intuitive user experiences and scalable frontend architectures.
 
-        I have developed projects in the frontend field using HTML, CSS, JavaScript, and React. I’m also familiar with Git and use it actively. As someone who is always eager to learn, I constantly explore new technologies and strive to improve myself.
+          My academic journey included an international exchange program in Poland, which significantly enhanced my technical adaptability and my ability to work effectively in diverse, multicultural teams.
 
-        My goal is to become a full-stack developer. With this in mind, I’ve started diving into backend development to expand my knowledge in this area. At the same time, I try to keep my GitHub profile active by building projects that put what I’ve learned into practice.
-
-        Every new project is a new learning opportunity for me. I see myself as a team player, solution-oriented, and someone who is open to growth — aiming to build a strong career in the world of software development.
+          Currently, I am expanding my expertise into Python and Artificial Intelligence. My goal is to combine my full-stack development skills with machine learning to build intelligent applications that solve complex real-world problems. I am a solution-oriented developer, an active GitHub contributor, and a lifelong learner committed to writing clean, efficient code.
         </p>
       </section>
 
